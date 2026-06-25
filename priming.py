@@ -1,4 +1,3 @@
-from traceback import print_exc
 from typing import Optional
 
 from constants import PRIMES, KEY_LENGTH_EXCEPTION
