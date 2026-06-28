@@ -5,5 +5,5 @@ def find_greatest(input_list : list[int]) -> int:
             greatest_so_far = i
     return int(greatest_so_far)
 
-def convert_to_ascii(input_string : str) -> list[int]:
+def convert_UTF_8(input_string : str) -> list[int]:
     return [ord(char) for char in input_string]
